@@ -1,0 +1,25 @@
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  text-align:center;
+  margin-left:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right:auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+i{
+  color:blue($color: blue)
+}
